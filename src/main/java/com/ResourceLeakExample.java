@@ -33,11 +33,11 @@ public class ResourceLeakExample {
 //        // 不需要显式关闭BufferedReader，try-with-resources会自动处理
 //    }
 	
-	public static void main(String[] args) {
-		String password;
-        //password = "12345"; 
-		password = ""; 
-        System.out.println(password);
-    }
+	// public static void main(String[] args) {
+		// String password;
+        // //password = "12345"; 
+		// password = ""; 
+        // System.out.println(password);
+    // }
 
 }
